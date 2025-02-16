@@ -1,0 +1,24 @@
+---
+main:
+- name: Home
+  url: ""
+  weight: 1
+- name: Über Mich
+  url: about/
+  weight: 2
+- name: Blog
+  url: blog/
+  weight: 3
+- name: Kontakt
+  url: contact/
+  weight: 4
+footer:
+- name: Über Mich
+  url: about/
+  weight: 1
+- name: Datenschutzerklärung
+  url: privacy-policy/
+  weight: 2
+- name: Impressum
+  url: imprint/
+  weight: 3

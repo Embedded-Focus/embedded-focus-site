@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 27.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Ebene_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 860.99998 311.00001"
+   xml:space="preserve"
+   sodipodi:docname="wago.svg"
+   width="861"
+   height="311"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1998" /><sodipodi:namedview
+   id="namedview1996"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showgrid="false"
+   inkscape:zoom="0.39643878"
+   inkscape:cx="254.76822"
+   inkscape:cy="156.39237"
+   inkscape:window-width="1309"
+   inkscape:window-height="456"
+   inkscape:window-x="0"
+   inkscape:window-y="44"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Ebene_1" />
+<style
+   type="text/css"
+   id="style1983">
+	.st0{fill:#6EC800;}
+</style>
+<g
+   id="g1993"
+   transform="translate(-181.2,-141.9)">
+	<path
+   class="st0"
+   d="m 748.4,287.6 v 19.7 H 776 V 325 H 720.9 V 269.9 H 839 v -63 H 681.4 c -13.1,0 -23.6,10.6 -23.6,23.6 v 133.9 c 0,13.1 10.6,23.6 23.6,23.6 h 133.9 c 13.1,0 23.6,-10.6 23.6,-23.6 v -76.8 z"
+   id="path1985" />
+	<path
+   class="st0"
+   d="M 1018.6,206.8 H 884.7 c -13.1,0 -23.6,10.6 -23.6,23.6 v 133.9 c 0,13.1 10.6,23.6 23.6,23.6 h 133.9 c 13.1,0 23.6,-10.6 23.6,-23.6 V 230.4 c 0,-13 -10.6,-23.6 -23.6,-23.6 M 979.2,325 h -55.1 v -55.1 h 55.1 z"
+   id="path1987" />
+	<path
+   class="st0"
+   d="M 529.7,206.8 399.3,407.7 h -22.6 l 29.3,45.2 96.7,-45.2 h -28.3 l 33.3,-51.2 h 65 V 388 h 63 V 206.8 Z M 528.2,325 572.7,256.5 V 325 Z"
+   id="path1989" />
+	<polygon
+   class="st0"
+   points="310.8,388 386.5,388 517,187.1 537.4,187.1 508.1,141.9 411.3,187.1 441.1,187.1 373.8,290.7 373.8,206.8 298.7,206.8 244.2,290.6 244.2,206.8 181.2,206.8 181.2,388 256.1,388 310.8,303.8 "
+   id="polygon1991" />
+</g>
+</svg>

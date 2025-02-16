@@ -1,0 +1,24 @@
+---
+anything_else: Ihre Nachricht
+full_name: Ihr Name
+working_mail: Ihre E-Mail Adresse
+more: mehr
+submit: Abschicken
+home: Home
+read_more: Weiterlesen
+send: Send
+related_posts: Related Posts
+categories: Categories
+tags: Tags
+toc: Table of Contents
+share: Share
+search_input_placeholder: Search Post...
+search_no_results: No results for
+search_initial_message: Type something to search..
+search_navigate: to navigate
+search_select: to select
+search_close: to close
+successful_form_submission: "Vielen Dank für Ihre Anfrage!"
+erroneous_form_submission: "Fehler bei der Übertragung der Formulardaten."
+email_required: Bitte eine gültige E-Mail-Adresse eingeben.
+message_required: Bitte eine Nachricht eingeben.
