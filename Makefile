@@ -24,10 +24,18 @@ hugo.yaml.in: themes/hugoplate/exampleSite/hugo.toml
 	yq -P -p toml -o yaml < $^ > $@
 	yamlfmt $@
 
+.PHONY: update-yamls
+update-yamls:
+	(cd themes/hugoplate/exampleSite && fdfind . -e '.toml' -x sh -c 'yq -oy -ptoml . < "$${1}" > "../../../$${1%.toml}.yaml"' _ {})
+	fdfind . -e '.yaml' -E themes -x yamlfmt {}
+
+.PHONY: clean-go-modules
+clean-go-modules:
+	hugo mod clean --all
+
 .PHONY: update-go-modules
 update-go-modules:
-	cp themes/hugoplate/exampleSite/go.mod
-	hugo mod clean --all
+	cp themes/hugoplate/exampleSite/go.mod .
 	hugo mod get -u
 	hugo mod tidy
 
@@ -48,5 +56,5 @@ deploy-preview:
 .PHONY: install-fonts
 install-fonts:
 	uv sync
-	./.venv/bin/python scripts/self_host_fonts_css.py ../assets/css/fonts.css.in ../assets/css/fonts.css ../static/fonts /fonts
+	./.venv/bin/python scripts/self_host_fonts_css.py themes/hugoplate/assets/css/fonts.css.in themes/hugoplate/assets/css/fonts.css themes/hugoplate/static/fonts /fonts
 
