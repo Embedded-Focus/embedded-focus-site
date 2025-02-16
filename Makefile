@@ -20,6 +20,17 @@ build:
 	echo "ErrorDocument 404 $(BASEDIR)/en/404.html" > static/en/.htaccess  # apache configuration
 	hugo build --baseURL $(BASEURL) --environment $(ENVIRONMENT)
 
+hugo.yaml.in: themes/hugoplate/exampleSite/hugo.toml
+	yq -P -p toml -o yaml < $^ > $@
+	yamlfmt $@
+
+.PHONY: update-go-modules
+update-go-modules:
+	cp themes/hugoplate/exampleSite/go.mod
+	hugo mod clean --all
+	hugo mod get -u
+	hugo mod tidy
+
 .PHONY: build
 serve: BASEURL := http://$(LISTEN_ADDR):1313/
 serve:
@@ -39,9 +50,3 @@ install-fonts:
 	uv sync
 	./.venv/bin/python scripts/self_host_fonts_css.py ../assets/css/fonts.css.in ../assets/css/fonts.css ../static/fonts /fonts
 
-
-update:
-	# first perform `npm run build:example`
-	fdfind -e '.toml' -x sh -c 'yq -oy -ptoml . < "$${1}" > "$${1%.toml}.yaml"' _ {}
-	-shopt -s globstar && rm **/*.toml
-	fdfind -e '.yaml' -x yamlfmt

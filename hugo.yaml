@@ -12,6 +12,7 @@ languages:
 hasCJKLanguage: false
 defaultContentLanguage: de
 defaultContentLanguageInSubdir: false
+theme: hugoplate
 services:
   googleAnalytics:
     ID: G-MEASUREMENT_ID
@@ -36,26 +37,15 @@ module:
     lang: de
   - source: assets
     target: assets
-  - source: hugo_stats.json
-    target: assets/watching/hugo_stats.json
+  - disableWatch: true
+    source: hugo_stats.json
+    target: assets/notwatching/hugo_stats.json
 build:
-  noJSConfigInAssets: false
-  useResourceCacheWhen: fallback
   buildStats:
     enable: true
   cachebusters:
-  - source: assets/watching/hugo_stats\.json
-    target: style\.css
-  - source: (postcss|tailwind)\.config\.js
+  - source: assets/notwatching/hugo_stats\.json
     target: css
-  - source: assets/.*\.(js|ts|jsx|tsx)
-    target: js
-  - source: assets/.*\.(css|scss|sass)
-    target: css
-  - source: data/.*\.(.*)$
-    target: css
-  - source: assets/.*\.(.*)$
-    target: $1
 outputs:
   home:
   - HTML
@@ -122,4 +112,3 @@ params:
       lazy: true
     - link: plugins/youtube-lite.js
       lazy: true
-theme: hugoplate
