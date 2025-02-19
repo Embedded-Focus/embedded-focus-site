@@ -13,6 +13,4 @@ social:
     icon: fa-brands fa-linkedin
     link: https://linkedin.com
 ---
-Ich bin Gründer von Embedded Focus und ein erfahrener Experte für Embedded DevSecOps und moderne Softwareentwicklungsprozesse. Mit einer tiefen Leidenschaft für sichere, effiziente und skalierbare Entwicklungsmethoden unterstütze ich Unternehmen dabei, innovative Technologien in der Embedded-Softwareentwicklung erfolgreich einzusetzen.
-
-Durch meine langjährige Erfahrung in Softwarearchitektur, Automatisierung und CI/CD speziell für Embedded-Systeme verstehe ich die Herausforderungen, mit denen Entwicklungsteams konfrontiert sind. Meine Mission: Embedded-Produkte schneller, sicherer und zukunftssicher entwickeln – mit modernen Prozessen, die echte Innovation ermöglichen.
+Ich bin Gründer von Embedded Focus und Experte für Embedded DevSecOps sowie moderne Softwareentwicklungsprozesse. Mit langjähriger Erfahrung in Softwarearchitektur, Automatisierung und CI/CD verstehe ich die Herausforderungen, denen Embedded-Teams gegenüberstehen. Meine Mission: Sichere, effiziente und skalierbare Entwicklungsprozesse etablieren, damit Unternehmen innovative Embedded-Produkte schneller und zukunftssicher auf den Markt bringen können.
