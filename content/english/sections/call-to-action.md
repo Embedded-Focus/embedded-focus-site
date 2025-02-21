@@ -1,12 +1,12 @@
 ---
 enable: true
-title: "Ready to build your next project with Hugo?"
-image: "/images/call-to-action.png"
-description: "Experience the future of web development with Hugoplate and Hugo. Build lightning-fast static sites with ease and flexibility."
+title: "Ready for the next step?"
+# image: "/images/call-to-action.png"
+description: "Send me your biggest challenge—let’s have a no-obligation conversation and find the best solution together!"
 button:
   enable: true
-  label: "Get Started Now"
-  link: "https://github.com/zeon-studio/hugoplate"
+  label: "Get in touch"
+  link: "contact/"
 
 # don't create a separate page
 _build:
