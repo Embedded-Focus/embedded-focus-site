@@ -1,7 +1,7 @@
 ---
 enable: true
-title: "Measurable Impact – What Customers Achieve and Calculate"
-description: "Efficiency isn't just about smoother workflows—it also translates into real, measurable impact. See how my customers benefit, both through real-world results and concrete financial gains."
+title: "Measurable Impact"
+description: "Increased efficiency is reflected not only in better processes but also in measurable results. Here’s how my clients benefit financially."
 
 testimonials:
 - name: "Parallel Test Execution"
