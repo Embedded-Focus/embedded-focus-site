@@ -1,7 +1,7 @@
 ---
 title: Markus Haag
 email: williamjacob@email.com
-image: "/images/avatar.png"
+image: "/images/mah.jpg"
 description: this is meta description
 social:
   - name: github
@@ -13,4 +13,4 @@ social:
     link: https://linkedin.com
 ---
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.
+Technologe und Unternehmer mit Leidenschaft für Innovation. Experte für Software und Problemlösung. Baut effiziente, wachstumsfördernde Lösungen.

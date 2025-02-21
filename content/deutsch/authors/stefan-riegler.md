@@ -1,7 +1,7 @@
 ---
 title: Stefan Riegler
-email: samwilson@email.com
-image: "/images/avatar.png"
+email: stefan@honeytreelabs.com
+image: "/images/sriegler.jpg"
 description: this is meta description
 social:
   - name: github
@@ -13,4 +13,4 @@ social:
     link: https://linkedin.com
 ---
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.
+Jahrzehntelange Erfahrung als IT- und Embedded-Security-Experte. Allrounder mit Hands-On-Mentalität. Interessiert an allem, das die Menschheit weiterbringt.

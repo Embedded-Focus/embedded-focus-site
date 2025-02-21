@@ -1,8 +1,9 @@
 ---
 title: Rainer Poisel
-email: johndoe@email.com
-image: "/images/avatar.png"
+email: rainer@embedded-focus.com
+image: "/images/rpoisel.png"
 description: this is meta description
+salutation: "Hello"
 social:
   - name: github
     icon: fa-brands fa-github
@@ -13,4 +14,4 @@ social:
     link: https://linkedin.com
 ---
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.
+Founder of Embedded Focus and expert in Embedded DevOps and modern software development processes. With extensive experience in software architecture, automation, and CI/CD, he understands the challenges embedded teams face. His mission is to establish secure, efficient, and scalable development processes, enabling companies to bring innovative embedded products to market faster and future-proof their technology.
