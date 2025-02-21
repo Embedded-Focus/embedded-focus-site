@@ -6,9 +6,9 @@ summaryLength: 10
 disableLanguages: []
 languages:
   en:
-    languageName: English
+    languageName: EN
   de:
-    languageName: Deutsch
+    languageName: DE
 hasCJKLanguage: false
 defaultContentLanguage: de
 defaultContentLanguageInSubdir: false
