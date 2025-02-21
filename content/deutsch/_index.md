@@ -11,7 +11,7 @@ banner:
 
 customers:
   title: "Meine Kunden"
-  description: "Die Zusammenarbeit mit meinen Kunden zeichnet sich durch Partnerschaftlichkeit und Verlässlichkeit aus.  Mein umfassendes DevSecOps-Know-how führt zu praxisbewährten Lösungen, die einen langfristigen Mehrwert schaffen."
+  description: "Die Zusammenarbeit mit meinen Kunden zeichnet sich durch Partnerschaftlichkeit und Verlässlichkeit aus.  Mein umfassendes DevOps-Know-how führt zu praxisbewährten Lösungen, die einen langfristigen Mehrwert schaffen."
   logos:
   - image: "/images/customers/wago.svg"
     name: "WAGO"
@@ -91,7 +91,7 @@ features:
       **Saubere Architektur & Nachhaltige Codebasis**  
       Eine erfolgreiche Modernisierung beginnt mit einer strukturierten Code- und Architekturverbesserung. Ich analysiere bestehende Systeme, löse technische Schulden, entferne überholte Abhängigkeiten und verbessere die Modularität. Durch gezieltes Refactoring und Code-Optimierung wird die Wartbarkeit erhöht, während moderne Programmiersprachen wie Rust, Modern C++ oder Python für mehr Sicherheit und Performance sorgen. Zudem ermögliche ich die Migration zu modernen Build-Systemen wie CMake, Bazel oder Meson, um die Entwicklungsprozesse effizienter zu gestalten.
 
-      **Automatisierung & DevSecOps für reibungslose Abläufe**  
+      **Automatisierung & DevOps für reibungslose Abläufe**  
       Viele Embedded-Projekte hängen an manuell angestoßenen Builds in der IDE. Ich migriere diese Abläufe in eine CI/CD-Umgebung, sodass Builds automatisiert und reproduzierbar laufen. CI/CD-Workflows mit GitLab CI/CD oder Jenkins reduzieren Wartezeiten und vermeiden Fehler. Automatisierte Tests mit Google Test, Catch2, doctest oder Hardware-in-the-Loop (HiL) Ansätze sorgen für eine zuverlässige Qualitätssicherung. Ergänzend garantieren Security-Checks mit Werkzeugen wie z. B. SonarQube, Clang-Tidy und SBOM-Analysen, dass Sicherheitsanforderungen erfüllt werden.
 
       **Portierung & Integration neuer Technologien**  

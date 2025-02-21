@@ -2,7 +2,7 @@
 banner:
   title: "Embedded Focus"
   content: "Ready to lead with strong, efficient processes."
-  slogan: "DevSecOps for Embedded Systems: <br /> Innovation without compromise"
+  slogan: "DevOps for Embedded Systems: <br /> Innovation without compromise"
   button:
     enable: false
     label: "Contact"
