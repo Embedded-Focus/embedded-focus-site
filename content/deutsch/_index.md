@@ -2,7 +2,7 @@
 banner:
   title: "Embedded Focus"
   content: "Mit starken Prozessen bereit für die Weltspitze."
-  slogan: "DevSecOps für Embedded Systems: <br /> Innovation durch Effizienz"
+  slogan: "DevOps für Embedded Systems: <br /> Innovation durch Effizienz"
   quote:  "„Moderne Entwicklungsmethoden sind kein Luxus für Software-Giganten sondern sicher und skalierbar für jedes Team umsetzbar.“"
   button:
     enable: false
