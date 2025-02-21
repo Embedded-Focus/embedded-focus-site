@@ -5,7 +5,7 @@ logo_darkmode: images/logo-darkmode.png
 logo_webp: true
 logo_text: Embedded Focus
 navbar_fixed: true
-theme_switcher: true
+theme_switcher: false
 theme_default: system
 mainSections:
 - blog
