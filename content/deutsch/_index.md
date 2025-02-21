@@ -96,9 +96,9 @@ features:
 
       **Portierung & Integration neuer Technologien**  
       Veraltete Plattformen und Betriebssysteme bremsen Innovation. Ich unterstütze die Portierung auf moderne Embedded-Plattformen, sorge mit Docker und Podman für reproduzierbare Entwicklungsumgebungen und optimiere Embedded-Systeme für Embedded Linux und RTOS. So bleibt Software langfristig wartbar und bereit für zukünftige Entwicklungen.
-  - title: "DevSecOps Trainings und Schulungen."
+  - title: "DevOps Trainings und Schulungen."
     content: |-
-      Sichere und effiziente Embedded-Entwicklung erfordert eingespielte Prozesse und fundiertes Know-how. Ob zu DevSecOps als Ganzes oder gezielt zu Themen wie Git-Workflows, CI/CD-Praktiken oder Security-Tests: Meine praxisnahen Trainings kombinieren fundierte Theorie mit Hands-on-Erfahrung, sodass Ihr Team das Gelernte sofort im Arbeitsalltag anwenden kann.
+      Sichere und effiziente Embedded-Entwicklung erfordert eingespielte Prozesse und fundiertes Know-how. Ob zu DevOps oder DevSecOps als Ganzes oder gezielt zu Themen wie Git-Workflows, CI/CD-Praktiken oder Security-Tests: Meine praxisnahen Trainings kombinieren fundierte Theorie mit Hands-on-Erfahrung, sodass Ihr Team das Gelernte sofort im Arbeitsalltag anwenden kann.
 
       **Individuelle Schulungen**  
       Jedes Unternehmen hat andere Herausforderungen. Ich konzipiere meine Schulungen passgenau für Ihr Team – von Einsteigerkursen bis hin zu tiefgehenden Workshops für erfahrene Entwickler:innen. Ob Best Practices für CI/CD, effiziente Git-Workflows, oder die Integration von Security-Checks in bestehende Prozesse – die Inhalte werden genau auf Ihre Bedürfnisse zugeschnitten.
