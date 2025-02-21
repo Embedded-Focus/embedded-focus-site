@@ -142,5 +142,5 @@ features:
     enable: false
 
 featured_authors:
-  - "rainer-poisel"
+- "rainer-poisel"
 ---

@@ -3,7 +3,7 @@ title: Rainer Poisel
 email: johndoe@email.com
 image: "/images/rpoisel.png"
 description: this is meta description
-salutation: "Guten Tag"
+salutation: "Guten Tag, mein Name ist"
 social:
   - name: github
     icon: fa-brands fa-github

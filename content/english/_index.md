@@ -47,4 +47,8 @@ features:
     - "Effortless compliance: I develop processes that automatically generate compliance reports for IEC 62443, IEC 61508, IEC 26262, and the Cyber Resilience Act (CRA)—eliminating manual documentation and providing audit-ready reports at the push of a button."
     button:
       enable: false
+
+featured_authors:
+- "rainer-poisel"
+
 ---

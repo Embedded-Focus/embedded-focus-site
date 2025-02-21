@@ -3,7 +3,7 @@ title: Rainer Poisel
 email: rainer@embedded-focus.com
 image: "/images/rpoisel.png"
 description: this is meta description
-salutation: "Hello"
+salutation: "Hello, my name is"
 social:
   - name: github
     icon: fa-brands fa-github
