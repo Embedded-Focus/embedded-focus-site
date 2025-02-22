@@ -7,7 +7,7 @@ toc: true
 comments: true
 image: "header.jpg"
 tags: ["yaml"]
-categories: ["DevOps"]
+categories: ["DevSecOps"]
 ---
 
 This article shows how to merge documents programmatically in YAML and, or JSON formats.
@@ -330,4 +330,4 @@ This way it is also easier to not confuse different clusters because one will on
 
 Merging and transforming documents such as YAML and JSON documents takes some practice. Luckily, required tools, `jq` and `yq`, are very well documented by their authors. Furthermore, loads of examples and questions can be found on StackOverflow.
 
-With this knowledge at hand, I can enrich my personal toolbox with shortcuts to simplify my daily live as a DevOps engineer.
+With this knowledge at hand, I can enrich my personal toolbox with shortcuts to simplify my daily live as a DevSecOps engineer.

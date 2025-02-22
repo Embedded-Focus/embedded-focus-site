@@ -2,7 +2,7 @@
 banner:
   title: "Embedded Focus"
   content: "Ready to lead with strong, efficient processes."
-  slogan: "DevOps for Embedded Systems: <br /> Innovation without compromise"
+  slogan: "DevSecOps for Embedded Systems: <br /> Innovation without compromise"
   quote:  "\"Modern development methods aren't a luxury for software giants—they can be implemented securely and scalably by any team.\""
   button:
     enable: false
@@ -11,7 +11,7 @@ banner:
 
 customers:
   title: "My Customers"
-  description: "My collaboration with clients is defined by partnership and reliability. My extensive DevOps expertise delivers proven solutions that create long-term value."
+  description: "My collaboration with clients is defined by partnership and reliability. My extensive DevSecOps expertise delivers proven solutions that create long-term value."
   logos:
   - image: "/images/customers/wago.svg"
     name: "WAGO"
@@ -92,13 +92,13 @@ features:
       **Clean Architecture & Sustainable Codebase**  
       A successful modernization starts with structured code and architectural improvements. I analyze existing systems, resolve technical debt, remove outdated dependencies, and enhance modularity. Targeted refactoring and code optimization improve maintainability, while modern programming languages like Rust, Modern C++, or Python provide better security and performance. Additionally, I support migration to modern build systems like CMake, Bazel, or Meson to streamline development processes.
 
-      **Automation & DevOps for Smooth Workflows**  
+      **Automation & DevSecOps for Smooth Workflows**  
       Many embedded projects still rely on manually triggered builds in IDEs. I migrate these workflows to a CI/CD environment, ensuring automated and reproducible builds. CI/CD pipelines with GitLab CI/CD or Jenkins reduce wait times and prevent errors. Automated tests with Google Test, Catch2, doctest, or Hardware-in-the-Loop (HiL) approaches enhance quality assurance, while security checks with tools such as SonarQube, Clang-Tidy, and SBOM analysis ensure security requirements are met.
 
       **Porting & Integrating New Technologies**  
       Outdated platforms and operating systems slow down innovation. I assist in porting to modern embedded platforms, ensure reproducible development environments with Docker and Podman, and optimize embedded systems for Embedded Linux and RTOS. This keeps software maintainable and ready for future developments.
 
-  - title: "DevOps Training and Workshops."  
+  - title: "DevSecOps Training and Workshops."  
     content: |-
       Secure and efficient embedded development requires well-structured processes and solid expertise. Whether it's DevOps or DevSecOps as a whole, or specific topics like Git workflows, CI/CD practices, or security testing—my hands-on training sessions combine deep theoretical knowledge with practical experience, enabling your team to apply what they learn immediately.
 

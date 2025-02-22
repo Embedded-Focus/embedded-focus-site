@@ -2,7 +2,7 @@
 banner:
   title: "Embedded Focus"
   content: "Mit starken Prozessen bereit für die Weltspitze."
-  slogan: "DevOps für Embedded Systems: <br /> Innovation durch Effizienz"
+  slogan: "DevSecOps für Embedded Systems: <br /> Innovation durch Effizienz"
   quote:  "„Moderne Entwicklungsmethoden sind kein Luxus für Software-Giganten sondern sicher und skalierbar für jedes Team umsetzbar.“"
   button:
     enable: false
@@ -11,7 +11,7 @@ banner:
 
 customers:
   title: "Meine Kunden"
-  description: "Die Zusammenarbeit mit meinen Kunden zeichnet sich durch Partnerschaftlichkeit und Verlässlichkeit aus.  Mein umfassendes DevOps-Know-how führt zu praxisbewährten Lösungen, die einen langfristigen Mehrwert schaffen."
+  description: "Die Zusammenarbeit mit meinen Kunden zeichnet sich durch Partnerschaftlichkeit und Verlässlichkeit aus.  Mein umfassendes DevSecOps-Know-how führt zu praxisbewährten Lösungen, die einen langfristigen Mehrwert schaffen."
   logos:
   - image: "/images/customers/wago.svg"
     name: "WAGO"
@@ -91,12 +91,12 @@ features:
       **Saubere Architektur & Nachhaltige Codebasis**  
       Eine erfolgreiche Modernisierung beginnt mit einer strukturierten Code- und Architekturverbesserung. Ich analysiere bestehende Systeme, löse technische Schulden, entferne überholte Abhängigkeiten und verbessere die Modularität. Durch gezieltes Refactoring und Code-Optimierung wird die Wartbarkeit erhöht, während moderne Programmiersprachen wie Rust, Modern C++ oder Python für mehr Sicherheit und Performance sorgen. Zudem ermögliche ich die Migration zu modernen Build-Systemen wie CMake, Bazel oder Meson, um die Entwicklungsprozesse effizienter zu gestalten.
 
-      **Automatisierung & DevOps für reibungslose Abläufe**  
+      **Automatisierung & DevSecOps für reibungslose Abläufe**  
       Viele Embedded-Projekte hängen an manuell angestoßenen Builds in der IDE. Ich migriere diese Abläufe in eine CI/CD-Umgebung, sodass Builds automatisiert und reproduzierbar laufen. CI/CD-Workflows mit GitLab CI/CD oder Jenkins reduzieren Wartezeiten und vermeiden Fehler. Automatisierte Tests mit Google Test, Catch2, doctest oder Hardware-in-the-Loop (HiL) Ansätze sorgen für eine zuverlässige Qualitätssicherung. Ergänzend garantieren Security-Checks mit Werkzeugen wie z. B. SonarQube, Clang-Tidy und SBOM-Analysen, dass Sicherheitsanforderungen erfüllt werden.
 
       **Portierung & Integration neuer Technologien**  
       Veraltete Plattformen und Betriebssysteme bremsen Innovation. Ich unterstütze die Portierung auf moderne Embedded-Plattformen, sorge mit Docker und Podman für reproduzierbare Entwicklungsumgebungen und optimiere Embedded-Systeme für Embedded Linux und RTOS. So bleibt Software langfristig wartbar und bereit für zukünftige Entwicklungen.
-  - title: "DevOps Trainings und Schulungen."
+  - title: "DevSecOps Trainings und Schulungen."
     content: |-
       Sichere und effiziente Embedded-Entwicklung erfordert eingespielte Prozesse und fundiertes Know-how. Ob zu DevOps oder DevSecOps als Ganzes oder gezielt zu Themen wie Git-Workflows, CI/CD-Praktiken oder Security-Tests: Meine praxisnahen Trainings kombinieren fundierte Theorie mit Hands-on-Erfahrung, sodass Ihr Team das Gelernte sofort im Arbeitsalltag anwenden kann.
 
