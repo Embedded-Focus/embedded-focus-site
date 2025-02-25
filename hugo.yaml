@@ -12,7 +12,10 @@ languages:
 hasCJKLanguage: false
 defaultContentLanguage: de
 defaultContentLanguageInSubdir: false
-theme: hugoplate
+theme:
+- hugo-embed-pdf-shortcode
+- hugoplate
+enableInlineShortcodes: true
 services:
   googleAnalytics:
     ID: G-MEASUREMENT_ID

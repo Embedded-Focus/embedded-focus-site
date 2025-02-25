@@ -1,3 +1,6 @@
 [submodule "themes/hugoplate"]
 	path = themes/hugoplate
 	url = git@bitbucket.org:embedded-focus/hugoplate.git
+[submodule "themes/hugo-embed-pdf-shortcode"]
+	path = themes/hugo-embed-pdf-shortcode
+	url = git@bitbucket.org:embedded-focus/hugo-embed-pdf-shortcode.git
