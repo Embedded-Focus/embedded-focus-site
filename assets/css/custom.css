@@ -19,3 +19,9 @@ blockquote {
     @apply pt-2 pb-4;
   }
 }
+
+@layer utilities {
+  & :is(:where(pre code):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+    color: #ffffff !important;
+  }
+}
