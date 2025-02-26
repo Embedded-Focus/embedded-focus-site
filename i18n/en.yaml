@@ -22,3 +22,4 @@ successful_form_submission: "Thank you for your message!"
 erroneous_form_submission: "Error during transmission of form data."
 email_required: Email is required.
 message_required: Message is required.
+download_cv: "Download CV"

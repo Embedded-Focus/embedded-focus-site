@@ -4,6 +4,8 @@ email: johndoe@email.com
 image: "/images/rpoisel.png"
 description: this is meta description
 salutation: "Guten Tag, mein Name ist"
+cv: "cv_rpoisel_de.pdf"
+role: Gründer
 social:
   - name: github
     icon: fa-brands fa-github

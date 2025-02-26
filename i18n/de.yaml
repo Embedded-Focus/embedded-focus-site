@@ -22,3 +22,4 @@ successful_form_submission: "Vielen Dank für Ihre Anfrage!"
 erroneous_form_submission: "Fehler bei der Übertragung der Formulardaten."
 email_required: Bitte eine gültige E-Mail-Adresse eingeben.
 message_required: Bitte eine Nachricht eingeben.
+download_cv: "CV downloaden"
