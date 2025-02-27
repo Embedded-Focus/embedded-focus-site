@@ -8,9 +8,7 @@ button:
   label: Contact
 ---
 
-## Unterstützung beim Aufbau sicherer Embedded CI/CD-Pipelines
-
-<!-- Schneller und zuverlässiger -->
+## Embedded-Software-Entwicklung mit DevSecOps
 
 Mit jahrelanger Erfahrung in der Embedded-Softwareentwicklung, CI/CD-Automatisierung, Build-Prozess-Optimierung und Embedded-Security unterstütze ich Unternehmen dabei, ihre Entwicklungsabläufe zu verbessern und Compliance-Anforderungen zu erfüllen. Egal, ob Sie mit langsamen Builds, instabilen Pipelines, ineffizienten Teststrategien oder der Einhaltung von Sicherheits- und regulatorischen Vorgaben zu kämpfen haben – ich helfe Ihnen, robuste und skalierbare Lösungen zu entwickeln, die auf Ihre spezifischen Anforderungen zugeschnitten sind.
 
@@ -18,15 +16,18 @@ Mit jahrelanger Erfahrung in der Embedded-Softwareentwicklung, CI/CD-Automatisie
 
 ### Architektur von Build-Prozessen
 
-- **Optimierung von Embedded CI/CD**: Entwicklung, Optimierung und Skalierung von Continuous-Integration- und Deployment-Pipelines für Embedded-Software.  
-- **Automatisierung von Build-Prozessen**: Verbesserung der Effizienz, Reproduzierbarkeit und Nachvollziehbarkeit von Build-Prozessen für schnellere und zuverlässigere Releases.  
-- **Embedded Security & Compliance**: Implementierung sicherer Softwareentwicklungspraktiken gemäß branchenspezifischen Vorschriften, einschließlich des Cyber Resilience Act.  
-- **Teststrategien für Embedded-Systeme**: Entwicklung effektiver Testautomatisierungslösungen zur Sicherstellung der Softwarequalität und zur Vermeidung von Regressionen.  
+- **Optimierung und Automatisierung von CI/CD**: Entwicklung, Skalierung und Automatisierung von Continuous-Integration- und Deployment-Pipelines für Embedded-Software, inklusive effizienter Build-Prozesse.
+- **Teststrategien und Containerisierte Workflows**: Entwicklung effektiver Testautomatisierungslösungen sowie Nutzung von Docker und Container-Technologien für skalierbare und reproduzierbare Build- und Testumgebungen.
 
-### Technische Beratung
+### Modernisierung älterer Embedded-Software-Systeme
 
-- **Docker & Containerisierte Workflows**: Nutzung von Container-Technologien für skalierbare und reproduzierbare Build- und Testumgebungen.  
-- **GitLab CI/CD & Jenkins**: Optimierung und Verwaltung der Build-Infrastruktur mit GitLab Runners und Jenkins für die Embedded-Entwicklung.  
+- **Portierung und Refactoring bestehender Software**: Migration auf moderne Toolchains, Verbesserung bestehender C/C++-Codebasen zur Erhöhung der Wartbarkeit, Sicherheit und Performance.
+- **Automatisierung und Reproduzierbarkeit**: Einführung von CI/CD, Containerisierung und reproduzierbaren Build-Prozessen für eine stabile und skalierbare Entwicklung.
+
+### Nachweis von Compliance und Sicherheitsanforderungen
+
+- **Embedded Security & Automatisierte Compliance-Prüfungen**: Implementierung sicherer Entwicklungspraktiken und Integration von Sicherheits- und Qualitätsanalysen in den Build-Prozess.
+- **Dokumentation und Software-Lieferketten-Sicherheit**: Unterstützung bei Compliance-Dokumentation, Nachweisführung und Sicherstellung der Integrität von Abhängigkeiten (z. B. SBOM, Code-Signing).
 
 ## Wie ich Sie unterstützen kann
 
@@ -34,25 +35,25 @@ Ich helfe Unternehmen, Engpässe zu identifizieren, Ineffizienzen zu beseitigen 
 
 ### Typische Einsatzbereiche
 
-**CI/CD-Analyse & Strategie**  
-Untersuchung Ihrer aktuellen Pipeline, Identifikation von Schwachstellen und Empfehlungen zur Verbesserung.
+**CI/CD-Analyse & Strategie: Engpässe identifizieren, Optimierungspotenziale aufdecken**  
+Ich analysiere Ihre CI/CD-Pipeline, identifiziere Engpässe und entwickle eine Strategie für effizientere, stabilere und skalierbare Entwicklungsprozesse.
 
-**Implementierung & Automatisierung**  
-Praktische Unterstützung bei der Implementierung bewährter Verfahren, Automatisierung von Prozessen und Integration moderner Tools.
+**Implementierung & Automatisierung: Zuverlässige und reproduzierbare Build-Prozesse**  
+Ich automatisiere fehleranfällige Abläufe, optimiere Build-Umgebungen und integriere containerisierte Workflows für stabile und reproduzierbare Entwicklungs- und Testprozesse.
 
-**Skalierung von CI/CD für Embedded-Systeme**  
-Einrichtung von bedarfsgesteuerten GitLab Runners, Cloud-Integration und effizientem Ressourcenmanagement.
+**Skalierung von CI/CD für Embedded-Systeme: Mehr Builds, weniger Wartezeiten**  
+Ich setze bedarfsgesteuerte GitLab Runners auf, optimiere Ressourcenverteilung und ermögliche parallele Builds, um Entwicklungszyklen zu verkürzen.
 
-**Sicherheits- & Compliance-Reviews**  
-Überprüfung Ihrer Build- und Deployment-Pipelines zur Sicherstellung der Einhaltung von Sicherheitsstandards und regulatorischen Vorgaben.
+**Modernisierung älterer Embedded-Software: Zukunftssichere Entwicklungstools und Architekturen**  
+Ich unterstütze bei der Migration auf moderne Toolchains, verbessere die Wartbarkeit von Legacy-C/C++-Code und optimiere Build-Systeme für langfristige Stabilität.
 
-**Workshops & Schulungen**  
-Schulung von Teams im effektiven Einsatz von CI/CD-Tools, Automatisierung von Tests und der Entwicklung zuverlässiger Embedded-Software.
+**Sicherheits- & Compliance-Absicherung: Sicherheit von Anfang an integriert**  
+Ich implementiere automatisierte Sicherheitsprüfungen, unterstütze bei Code-Signing und stelle sicher, dass regulatorische Anforderungen wie IEC 62443 oder der Cyber Resilience Act frühzeitig erfüllt werden.
 
 ## Warum mit mir arbeiten?
 
-Ich kenne die spezifischen Herausforderungen der Embedded-Softwareentwicklung und habe nachweislich Unternehmen dabei unterstützt, ihre CI/CD-Pipelines zu optimieren. Mein Fokus liegt auf praxisnahen, skalierbaren und sicheren Lösungen, die Effizienz und Zuverlässigkeit in Ihren Entwicklungsprozessen verbessern.
+Ich kenne die spezifischen Herausforderungen der Embedded-Softwareentwicklung und habe viele Unternehmen dabei unterstützt, ihre CI/CD-Pipelines zu optimieren. Mein Fokus liegt auf praxisnahen, skalierbaren und sicheren Lösungen, die Effizienz und Zuverlässigkeit in Ihren Entwicklungsprozessen verbessern.
 
-## Kontakt aufnehmen
+{{< ef_center pt=4 inner="Lassen Sie uns darüber sprechen, wie ich Ihnen bei Ihren technischen Herausforderungen helfen kann." >}}
 
-Möchten Sie Ihre Embedded CI/CD-Workflows optimieren, Ihre Build-Prozesse verbessern oder Sicherheits- und Compliance-Anforderungen effizient umsetzen? Lassen Sie uns darüber sprechen. Kontaktieren Sie mich über [Ihr bevorzugter Kontaktweg], um zu besprechen, wie ich Ihr Team unterstützen kann.
+{{< ef_button link="/contact" label="Kontakt" >}}
