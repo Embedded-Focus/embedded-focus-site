@@ -16,4 +16,4 @@ social:
     link: https://linkedin.com
 ---
 
-Founder of Embedded Focus and expert in Embedded DevSecOps and modern software development processes. With extensive experience in software architecture, automation, and CI/CD, he understands the challenges embedded teams face. His mission is to establish secure, efficient, and scalable development processes, enabling companies to bring innovative embedded products to market faster and future-proof their technology.
+Expert in Embedded DevSecOps and modern software development processes. With extensive experience in software architecture, automation, and CI/CD, I understand the challenges embedded teams face. My mission is to establish secure, efficient, and scalable development processes, enabling companies to bring innovative embedded products to market faster and future-proof their technology.
