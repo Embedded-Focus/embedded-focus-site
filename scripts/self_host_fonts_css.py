@@ -1,9 +1,22 @@
+import asyncio
+import json
 import re
 import sys
 from pathlib import Path
 from urllib.parse import urlparse
 
 import httpx
+
+
+async def fetch_all(urls: list[str]):
+    contents = []
+    async with httpx.AsyncClient() as client:
+        tasks = [client.get(url, follow_redirects=True) for url in urls]
+        responses = await asyncio.gather(*tasks)
+        for response in responses:
+            response.raise_for_status()
+            contents.append(response.content.decode("utf-8"))
+    return contents
 
 
 def download_css_assets(css_text: str, save_path: Path, url_path: Path) -> str:
@@ -31,15 +44,26 @@ def download_css_assets(css_text: str, save_path: Path, url_path: Path) -> str:
     return modified_css
 
 
+BASE_URL: str = "https://fonts.googleapis.com/css2?family={family}&display=swap"
+URL: str = "https://fonts.googleapis.com/css2?family=Barlow:wght@500;700&display=swap"
+
+
 def main() -> None:
     if len(sys.argv) != 5:
         print(
-            f"Usage: {sys.argv[0]} <source.css.in> <source.css> <download-dir> <page-dir>",
+            f"Usage: {sys.argv[0]} <theme.json> <source.css> <download-dir> <page-dir>",
             file=sys.stderr,
         )
 
+    theme = json.loads(Path(sys.argv[1]).read_text())
+    font_families = theme["fonts"]["font_family"]
+    urls = [
+        f"https://fonts.googleapis.com/css2?family={family}&display=swap"
+        for family in [font_families["primary"], font_families["secondary"]]
+    ]
+
     source_css = download_css_assets(
-        Path(sys.argv[1]).read_text(), Path(sys.argv[3]), Path(sys.argv[4])
+        "\n".join(asyncio.run(fetch_all(urls))), Path(sys.argv[3]), Path(sys.argv[4])
     )
     Path(sys.argv[2]).write_text(source_css)
 

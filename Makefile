@@ -56,5 +56,5 @@ deploy-preview:
 .PHONY: install-fonts
 install-fonts:
 	uv sync
-	./.venv/bin/python scripts/self_host_fonts_css.py themes/hugoplate/assets/css/fonts.css.in themes/hugoplate/assets/css/fonts.css themes/hugoplate/static/fonts /fonts
+	./.venv/bin/python scripts/self_host_fonts_css.py ./data/theme.json themes/hugoplate/assets/css/fonts.css themes/hugoplate/static/fonts /fonts
 
