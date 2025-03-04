@@ -1,5 +1,5 @@
 ---
-title: "Über Mich"
+title: "Guten Tag, meine Name ist Rainer Poisel."
 meta_title: "Über"
 description: "this is meta description"
 image: "/images/rpoisel.jpg"
