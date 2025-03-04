@@ -1,7 +1,7 @@
 ---
 title: Rainer Poisel
 email: johndoe@email.com
-image: "/images/rpoisel.png"
+image: "/images/rpoisel-hexagon.png"
 description: this is meta description
 salutation: "Guten Tag, mein Name ist"
 cv: "cv_rpoisel_de.pdf"

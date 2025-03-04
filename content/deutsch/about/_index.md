@@ -2,7 +2,7 @@
 title: "Über Mich"
 meta_title: "Über"
 description: "this is meta description"
-image: "/images/rpoisel.png"
+image: "/images/rpoisel.jpg"
 draft: false
 slogan: Gemeinsam machen wir Ihre Embedded-Entwicklung fit für die Zukunft.
 ---

@@ -52,7 +52,7 @@ features:
     enable: false
 
 - title: "Mein Angebot für Ihren Erfolg"
-  image: "/images/lightbulb.jpg"
+  image: "/images/desktop.jpg"
   content: ""
   # icon: fa-gears
   # padding: 8

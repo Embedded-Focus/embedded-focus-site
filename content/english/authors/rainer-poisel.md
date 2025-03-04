@@ -1,7 +1,7 @@
 ---
 title: Rainer Poisel
 email: rainer@embedded-focus.com
-image: "/images/rpoisel.png"
+image: "/images/rpoisel-hexagon.jpg"
 description: this is meta description
 salutation: "Hello, my name is"
 cv: "cv_rpoisel_en.pdf"
