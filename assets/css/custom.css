@@ -1,9 +1,5 @@
 /* Add your own custom styles here */
 
-code {
-    @apply bg-gray-100 dark:bg-gray-800;
-}
-
 blockquote {
   @apply mt-0 mb-0 pt-0 pb-0;
 }
