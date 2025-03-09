@@ -1,4 +1,4 @@
-// Add your own custom styles here
+/* Add your own custom styles here */
 
 code {
     @apply bg-gray-100 dark:bg-gray-800;
@@ -23,5 +23,64 @@ blockquote {
 @layer utilities {
   & :is(:where(pre code):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
     color: #ffffff !important;
+  }
+}
+
+.nav-link {
+  @apply text-dark hover:bg-primary hover:text-light p-4 pt-2 pb-2;
+  &.active {
+    @apply bg-primary text-light;
+  }
+}
+
+.bg-theme-dark {
+  h1, h2, h3, h4, h5, h6, p, li, button, strong, a {
+    @apply text-light;
+  }
+  .btn-primary {
+    @apply text-primary bg-light;
+    i {
+      @apply text-primary;
+    }
+  }
+}
+
+.bg-theme-light {
+  h1, h2, h3, h4, h5, h6, p, li, button, strong, a {
+    @apply text-dark;
+  }
+  .social-icons a {
+    @apply text-light;
+  }
+}
+
+.form-input {
+  @apply border border-primary p-3 w-full;
+}
+
+/* SWIPER */
+.swiper-wrapper .swiper-slide {
+  height: auto;
+  .swiper-inner {
+    height: 100%;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+}
+
+.badge  {
+  h3 {
+    font-weight: 500;
+    @apply text-light;
+  }
+  display: inline-flex;
+  rotate: -5deg;
+  margin-left: -15px;
+  margin-top: -35px;
+  margin-bottom: 30px;
+  .small {
+    font-size: .8em;
   }
 }
