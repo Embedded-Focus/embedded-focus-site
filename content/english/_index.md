@@ -38,7 +38,7 @@ features:
 - title: "This is How I Help Companies"
   image: "/images/success.jpg"
   content: |-
-    Because the truth is: The number one risk in global competition is a lack of innovation. We can no longer afford productivity blockers like insecure processes or missing automation.
+    The truth is: The number one risk in global competition is a lack of innovation. We can no longer afford productivity blockers like insecure processes or missing automation.
 
     ##### What if ...
   icon: fa-circle-check

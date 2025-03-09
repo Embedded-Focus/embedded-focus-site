@@ -35,10 +35,10 @@ features:
   button:
     enable: false
 
-- title: "Dabei helfe ich Unternehmen"
+- title: "So helfe ich Unternehmen"
   image: "/images/success.jpg"
   content: |-
-    Denn die Wahrheit ist: das Nummer 1 Risiko im globalen Wettbewerb ist fehlende Innovationskraft. Wir können uns Produktivitätsbremsen wie unsichere Prozesse oder fehlende Automatisierung nicht weiter leisten.
+    Die Wahrheit ist: das Nummer 1 Risiko im globalen Wettbewerb ist fehlende Innovationskraft. Wir können uns Produktivitätsbremsen wie unsichere Prozesse oder fehlende Automatisierung nicht weiter leisten.
 
     ##### Wie wäre es, ...
   icon: fa-circle-check
@@ -57,7 +57,7 @@ features:
   # icon: fa-gears
   # padding: 8
   accordions:
-  - title: "Build-Pipelines für Embedded Software."
+  - title: "Build-Prozesse für Embedded Software."
     content: |-
       Ich entwickle maßgeschneiderte Build-Pipelines, die Zuverlässigkeit, Geschwindigkeit und Skalierbarkeit in den Mittelpunkt stellen.
 
