@@ -1,5 +1,18 @@
 /* Add your own custom styles here */
 
+.dark {
+  --color-primary: #24A3BF;
+  --color-secondary: #F27F1B;
+  --color-body: #fff;
+  --color-border: #010326;
+  --color-theme-light: #010326;
+  --color-theme-dark: #24A3BF;
+  --color-text: #fff;
+  --color-dark: #fff;
+  --color-light: #010326;
+  --color-darkmode-light: #fff;
+}
+
 blockquote {
   @apply mt-0 mb-0 pt-0 pb-0;
 }
@@ -22,34 +35,6 @@ blockquote {
   }
 }
 
-.nav-link {
-  @apply text-dark hover:bg-primary hover:text-light p-4 pt-2 pb-2;
-  &.active {
-    @apply bg-primary text-light;
-  }
-}
-
-.bg-theme-dark {
-  h1, h2, h3, h4, h5, h6, p, li, button, strong, a {
-    @apply text-light;
-  }
-  .btn-primary {
-    @apply text-primary bg-light;
-    i {
-      @apply text-primary;
-    }
-  }
-}
-
-.bg-theme-light {
-  h1, h2, h3, h4, h5, h6, p, li, button, strong, a {
-    @apply text-dark;
-  }
-  .social-icons a {
-    @apply text-light;
-  }
-}
-
 .form-input {
   @apply border border-primary p-3 w-full;
 }
@@ -63,7 +48,7 @@ blockquote {
 }
 
 .swiper-pagination-bullet-active {
-  background-color: white !important;
+  background-color: var(--color-light) !important;
 }
 
 .badge  {

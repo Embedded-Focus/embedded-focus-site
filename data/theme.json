@@ -5,7 +5,7 @@
         "primary": "#1f80a6",
         "secondary": "#F25C05 ",
         "body": "#fff",
-        "border": "#343551",
+        "border": "#010326",
         "theme_light": "#fff",
         "theme_dark": "#1f80a6"
       },
@@ -17,16 +17,17 @@
     },
     "darkmode": {
       "theme_color": {
-        "primary": "#fff",
+        "primary": "#24A3BF",
+        "secondary": "#F27F1B",
         "body": "#010326",
-        "border": "#3E3E3E",
-        "theme_light": "#222e4e",
-        "theme_dark": ""
+        "border": "#010326",
+        "theme_light": "#010326",
+        "theme_dark": "#24A3BF"
       },
       "text_color": {
         "text": "#fff",
         "dark": "#fff",
-        "light": "#fff"
+        "light": "#010326"
       }
     }
   },
