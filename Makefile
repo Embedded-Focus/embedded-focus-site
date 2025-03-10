@@ -53,6 +53,11 @@ deploy-preview:
 	$(MAKE) build BASEURL=https://preview.embedded-focus.com/
 	rsync -avz -e ssh --rsync-path="/tmp/rsync" public/ netcup:/preview.embedded-focus.com/httpdocs/
 
+.PHONY: deploy-release
+deploy-reelase:
+	$(MAKE) build BASEURL=https://embedded-focus.com/
+	rsync -avz -e ssh --rsync-path="/tmp/rsync" public/ netcup:/embedded-focus.com/httpdocs/
+
 .PHONY: install-fonts
 install-fonts:
 	uv sync
