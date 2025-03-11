@@ -13,11 +13,20 @@ BASEDIR := $(shell echo $(BASEURL) | sed -E 's|^[^/]+://[^/]+/?([^/]*)?.*$$|\1|'
 all:
 	@echo "Please choose a target manually."
 
-.PHONY: build
-build:
+static/en:
 	mkdir -p static/en
-	echo "ErrorDocument 404 $(BASEDIR)/404.html" > static/.htaccess  # apache configuration
-	echo "ErrorDocument 404 $(BASEDIR)/en/404.html" > static/en/.htaccess  # apache configuration
+
+build: | static/en
+	echo "ErrorDocument 404 $(BASEDIR)/404.html" > static/.htaccess
+	echo "RewriteEngine On" >> static/.htaccess
+	echo "RewriteCond %{HTTP_HOST} !^embedded-focus\.com$$ [NC]" >> static/.htaccess
+	echo "RewriteRule ^(.*)$$ https://embedded-focus.com/\$$1 [R=301,L]" >> static/.htaccess
+
+	echo "ErrorDocument 404 $(BASEDIR)/en/404.html" > static/en/.htaccess
+	echo "RewriteEngine On" >> static/en/.htaccess
+	echo "RewriteCond %{HTTP_HOST} !^embedded-focus\.com$$ [NC]" >> static/en/.htaccess
+	echo "RewriteRule ^(.*)$$ https://embedded-focus.com/en/\$$1 [R=301,L]" >> static/en/.htaccess
+
 	hugo build --baseURL $(BASEURL) --environment $(ENVIRONMENT)
 
 hugo.yaml.in: themes/hugoplate/exampleSite/hugo.toml
