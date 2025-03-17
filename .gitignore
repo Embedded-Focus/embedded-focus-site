@@ -18,3 +18,4 @@ yarn.lock
 .aider*
 .envrc
 .venv/
+.env
