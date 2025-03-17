@@ -17,29 +17,36 @@ all:
 static/en:
 	mkdir -p static/en
 
-.PHONY: htaccess
-htaccess:
-	echo "ErrorDocument 404 $(BASEDIR)/404.html" > static/.htaccess
-	echo "RewriteEngine On" >> static/.htaccess
-	echo "RewriteCond %{HTTP_HOST} !^$(DOMAIN)$$ [NC]" >> static/.htaccess
-	echo "RewriteRule ^(.*)$$ https://$(DOMAIN)/\$$1 [R=301,L]" >> static/.htaccess
 ifeq ($(VERSION),preview)
-	echo "AuthType Basic" >> static/.htaccess
-	echo "AuthName \"Restricted Area\"" >> static/.htaccess
-	echo "AuthUserFile /var/www/vhosts/$(HOSTING)/$(DOMAIN)/.htpasswd" >> static/.htaccess
-	echo "Require valid-user" >> static/.htaccess
+define generate_htpasswd
+	echo "AuthType Basic" >> $(1)/.htaccess
+	echo "AuthName \"Restricted Area\"" >> $(1)/.htaccess
+	echo "AuthUserFile /var/www/vhosts/$(HOSTING)/$(DOMAIN)/.htpasswd" >> $(1)/.htaccess
+	echo "Require valid-user" >> $(1)/.htaccess
+endef
+else
+define generate_htpasswd
+endef
 endif
 
-	echo "ErrorDocument 404 $(BASEDIR)/en/404.html" > static/en/.htaccess
-	echo "RewriteEngine On" >> static/en/.htaccess
-	echo "RewriteCond %{HTTP_HOST} !^$(DOMAIN)$$ [NC]" >> static/en/.htaccess
-	echo "RewriteRule ^(.*)$$ https://$(DOMAIN)/en/\$$1 [R=301,L]" >> static/en/.htaccess
-ifeq ($(VERSION),preview)
-	echo "AuthType Basic" >> static/en/.htaccess
-	echo "AuthName \"Restricted Area\"" >> static/en/.htaccess
-	echo "AuthUserFile /var/www/vhosts/$(HOSTING)/$(DOMAIN)/.htpasswd" >> static/en/.htaccess
-	echo "Require valid-user" >> static/en/.htaccess
-endif
+define generate_htaccess
+	echo "ErrorDocument 404 $(BASEDIR)/$(1)/404.html" > $(1)/.htaccess
+	echo "RewriteEngine On" >> $(1)/.htaccess
+	echo "RewriteCond %{HTTP_HOST} !^$(DOMAIN)$$ [NC]" >> $(1)/.htaccess
+	echo "RewriteRule ^(.*)$$ https://$(DOMAIN)/$(1)/\$$1 [R=301,L]" >> $(1)/.htaccess
+	$(call generate_htpasswd,$(1))
+endef
+
+.PHONY: static/.htaccess
+static/.htaccess:
+	$(call generate_htaccess,static)
+
+.PHONY: static/en/.htaccess
+static/en/.htaccess:
+	$(call generate_htaccess,static/en)
+
+.PHONY: htaccess
+htaccess: static/.htaccess static/en/.htaccess
 
 build: htaccess | static/en
 	hugo build --baseURL $(BASEURL) --environment $(ENVIRONMENT)
