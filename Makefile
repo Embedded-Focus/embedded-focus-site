@@ -10,6 +10,7 @@ ENVIRONMENT ?= production
 BASEURL ?= $(shell yq '.baseURL' < hugo.yaml)
 DOMAIN ?= $(shell echo $(BASEURL) | sed 's|https://\([^/]\+\).*$$|\1|')
 BASEDIR := $(shell echo $(BASEURL) | sed -E 's|^[^/]+://[^/]+/?([^/]*)?.*$$|\1|')
+UMAMI_ID := $(shell echo $${UMAMI_ID_$(VERSION)})
 
 all:
 	@echo "Please choose a target manually."
@@ -49,6 +50,8 @@ static/en/.htaccess:
 htaccess: static/.htaccess static/en/.htaccess
 
 build: htaccess | static/en
+	yq -i '.params.umami.id = "$(UMAMI_ID)"' hugo.yaml
+	yamlfmt hugo.yaml
 	hugo build --baseURL $(BASEURL) --environment $(ENVIRONMENT)
 
 hugo.yaml.in: themes/hugoplate/exampleSite/hugo.toml

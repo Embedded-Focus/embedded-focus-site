@@ -90,6 +90,8 @@ outputFormats:
     isPlainText: true
     notAlternative: true
 params:
+  umami:
+    url: https://umami.embedded-focus.com/script.js
   plugins:
     css:
     - link: plugins/swiper/swiper-bundle.css
