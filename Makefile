@@ -31,20 +31,24 @@ endef
 endif
 
 define generate_htaccess
-	echo "ErrorDocument 404 $(BASEDIR)/$(1)/404.html" > $(1)/.htaccess
+	echo "ErrorDocument 404 $(BASEDIR)/$(2)404.html" > $(1)/.htaccess
+endef
+
+define generate_rewrite_rule
 	echo "RewriteEngine On" >> $(1)/.htaccess
 	echo "RewriteCond %{HTTP_HOST} !^$(DOMAIN)$$ [NC]" >> $(1)/.htaccess
-	echo "RewriteRule ^(.*)$$ https://$(DOMAIN)/$(1)/\$$1 [R=301,L]" >> $(1)/.htaccess
-	$(call generate_htpasswd,$(1))
+	echo "RewriteRule ^(.*)$$ https://$(DOMAIN)/\$$1 [R=301,L]" >> $(1)/.htaccess
 endef
 
 .PHONY: static/.htaccess
 static/.htaccess:
-	$(call generate_htaccess,static)
+	$(call generate_htaccess,static,"")
+	$(call generate_htpasswd,static)
+	$(call generate_rewrite_rule,static)
 
 .PHONY: static/en/.htaccess
 static/en/.htaccess: | static/en
-	$(call generate_htaccess,static/en)
+	$(call generate_htaccess,static/en,en/)
 
 .PHONY: htaccess
 htaccess: static/.htaccess static/en/.htaccess
