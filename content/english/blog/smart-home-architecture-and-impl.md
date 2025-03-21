@@ -17,7 +17,7 @@ Since my last article, I have implemented a proof-of-concept version of my PLC. 
 
 ## Introduction {#introduction}
 
-In our [last article](/posts/smart-home-requirements-and-architecture/), I discussed the requirements and high-level architecture of my home automation system. Now, that I implemented a proof-of-concept version of this system, I want to describe the architecture and implementation details of it. In my view, the results are quite promising. The system is already in use on each of the three floors of my own house making it a distributed system consisting of three nodes.
+In our [last article](/blog/smart-home-requirements-and-architecture/), I discussed the requirements and high-level architecture of my home automation system. Now, that I implemented a proof-of-concept version of this system, I want to describe the architecture and implementation details of it. In my view, the results are quite promising. The system is already in use on each of the three floors of my own house making it a distributed system consisting of three nodes.
 
 For now, the feature set is still limited, but powerful at the same time: the application logic can be implemented in C++ as well as in Lua. A small library contains all the blocks I need to automatize lights, window blinds, and alarm switches. The actual runtime parameters such as the cycle time of tasks and the programs associated with them can be configured in a textual format. Supported IO subsystems are I²C, Modbus, and MQTT.
 

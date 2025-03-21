@@ -16,7 +16,7 @@ There cannot be enough safety nets in software development. In this post, we wil
 
 ## Introduction and Motivation {#introduction-and-motivation}
 
-In one of my [latest articles about undefined behavior in C++](/posts/dangling-temporaries-in-range-based-loops/), I suggested running unit-tests both with and without a memory checker. Running them with a memory checker has the advantage to detect any potential memory leaks as early as possible.
+In one of my [latest articles about undefined behavior in C++](/blog/dangling-temporaries-in-range-based-loops/), I suggested running unit-tests both with and without a memory checker. Running them with a memory checker has the advantage to detect any potential memory leaks as early as possible.
 
 It has to be mentioned that running tests in a memory checker not only takes longer, but it also affects the scheduling behavior of your application. As it is often impossible to deterministically tell the exact scheduling behavior of the underlying system, this is a minor issue, or even an advantage because your application needs to be prepared for these situations as well. In the course of this article, I will explain how to selectively run tests with and without a memory checker.
 

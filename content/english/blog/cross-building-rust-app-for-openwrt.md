@@ -19,7 +19,7 @@ In this article, we will demonstrate how to build Rust code for Raspberry Pi sin
 
 This article is about the challenges I had to cope with when building applications implemented in Rust for Raspberry Pi single-board computers (SBCs) and how I solved them. The [target application](https://www.emqx.com/en/blog/how-to-use-mqtt-in-rust) described in this article communicates via MQTT. The MQTT functionality is added to the project by third-party libraries.
 
-Most of my home-automation Raspberry Pis run the [OpenWrt](https://openwrt.org/) Linux distribution. In one of our [previous articles](./posts/smart-home-requirements-and-architecture/) I described why I chose this distribution: it not only is minimal in terms of size and resulting attack surface but also because it is very easy to implement read-only systems that are reliable. While, in this article, our focus is on the Raspberry Pi 2 SBCs with their ARMv7 architecture, the principles discussed here can be adapted for newer Raspberry Pi models featuring AARCH64 CPUs.
+Most of my home-automation Raspberry Pis run the [OpenWrt](https://openwrt.org/) Linux distribution. In one of our [previous articles](/blog/smart-home-requirements-and-architecture/) I described why I chose this distribution: it not only is minimal in terms of size and resulting attack surface but also because it is very easy to implement read-only systems that are reliable. While, in this article, our focus is on the Raspberry Pi 2 SBCs with their ARMv7 architecture, the principles discussed here can be adapted for newer Raspberry Pi models featuring AARCH64 CPUs.
 
 
 ## Related Work {#related-work}
