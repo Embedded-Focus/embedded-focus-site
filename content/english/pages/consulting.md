@@ -56,4 +56,4 @@ I understand the unique challenges of embedded software development and have a p
 
 {{< ef_center pt=4 inner="Let's talk about how I can help you tackle your technical challenges." >}}
 
-{{< ef_button link="/contact" label="Contact" >}}
+{{< ef_button link="/contact/" label="Contact" >}}

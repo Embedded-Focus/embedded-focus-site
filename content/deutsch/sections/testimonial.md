@@ -9,7 +9,7 @@ testimonials:
   first_line: "€ 100.000"
   second_line: pro Jahr bei 10 Mitarbeiter:innen
   content: "Durch parallelisierte Tests mit realen Embedded-Geräten wird die Testdauer erheblich verkürzt, und Entwickler:innen erhalten schneller präzises Feedback – eine wesentliche Grundlage für effizientere Abläufe."
-  more: parallel
+  more: parallel/
 
 - name: "Hardware Virtualisierung"
   designation: "Quality Assurance"
