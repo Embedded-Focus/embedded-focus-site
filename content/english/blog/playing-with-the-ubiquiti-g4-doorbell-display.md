@@ -114,7 +114,7 @@ EOF
 
 Result:
 
-![Screenshot of filling the Frame Buffer with random garbage](./fbrandom.png)
+![Screenshot of filling the Frame Buffer with random garbage](./fbrandom.jpg)
 
 
 ### More than Garbage: fbclock {#more-than-garbage-fbclock}
