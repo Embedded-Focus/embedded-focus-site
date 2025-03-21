@@ -9,7 +9,7 @@ testimonials:
   first_line: "€ 100.000"
   second_line: per year with 10 employees
   content: "Running tests in parallel on real embedded devices significantly reduces test duration, giving developers faster and more precise feedback—a key driver for more efficient workflows."
-  more: parallel
+  more: parallel/
 
 - name: "Hardware Virtualization"
   designation: "Quality Assurance"

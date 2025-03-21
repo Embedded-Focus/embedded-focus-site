@@ -56,4 +56,4 @@ Ich kenne die spezifischen Herausforderungen der Embedded-Softwareentwicklung un
 
 {{< ef_center pt=4 inner="Lassen Sie uns darüber sprechen, wie ich Ihnen bei Ihren technischen Herausforderungen helfen kann." >}}
 
-{{< ef_button link="/contact" label="Kontakt" >}}
+{{< ef_button link="/contact/" label="Kontakt" >}}
