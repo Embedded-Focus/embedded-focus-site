@@ -1,6 +1,6 @@
 ---
 title: "Playing with the Ubiquiti G4 Doorbell Display"
-authors: ["Rainer Poisel", "Stefan Rieglre"]
+authors: ["Rainer Poisel", "Stefan Riegler"]
 lastmod: 2022-12-06T16:04:03+01:00
 draft: false
 image: "header.png"
