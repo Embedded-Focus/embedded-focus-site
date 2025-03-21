@@ -43,7 +43,7 @@ static/.htaccess:
 	$(call generate_htaccess,static)
 
 .PHONY: static/en/.htaccess
-static/en/.htaccess:
+static/en/.htaccess: | static/en
 	$(call generate_htaccess,static/en)
 
 .PHONY: htaccess
