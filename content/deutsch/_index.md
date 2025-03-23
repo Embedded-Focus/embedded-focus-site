@@ -1,4 +1,6 @@
 ---
+title: "DevSecOps für Embedded Systems | Sichere, skalierbare Firmware schneller entwickeln"
+
 banner:
   title: "Embedded Focus"
   content: "Mit starken Prozessen bereit für die Weltspitze."
