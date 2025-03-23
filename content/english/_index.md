@@ -59,7 +59,7 @@ features:
   # icon: fa-gears
   # padding: 8
   accordions:
-  - title: Build Pipelines for Embedded Software
+  - title: Build Pipelines for Embedded Software.
     content: |-
       I develop custom build pipelines that prioritize reliability, speed, and scalability.
 
