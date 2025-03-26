@@ -60,7 +60,7 @@ Let's formalize the relationship between components here first. The model is lik
 
 The next diagram shows a typical layout of an electric cabinet:
 
-![Cabinet Layout](./cabinet-layout.svg)
+![Cabinet Layout](./cabinet-layout.jpg)
 
 A cabinet typically consists of one Single Board Computer (SBC) like a Raspberry Pi and multiple I/O components attached to it. The Raspberry Pi acts like a Programmable Logical Controller (PLC) with periodic cyclic scanning. Inter-cabinet communication takes place via Ethernet. In simple terms, the SBC converts between signals that may arrive on different bus systems to outputs that may also be connected on different bus systems. In the shown diagram, only I<sup>2</sup>C components are attached to the Raspberry Pi. But in practice, components on other communication busses such as ModBus might also be attached to it.
 
