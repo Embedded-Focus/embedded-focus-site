@@ -8,6 +8,7 @@ comments: true
 image: "header.jpg"
 tags: ["c++", "golang"]
 categories: ["Coding"]
+canonical: "https://honeytreelabs.com/posts/coding-in-cpp-like-its-golang-part-1/"
 ---
 
 Golang has some nice features such as multiple return values, the `defer` keyword, and channels. This article shows how to implement multiple return values of functions in Golang and C++.

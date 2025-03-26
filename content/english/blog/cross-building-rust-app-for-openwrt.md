@@ -8,6 +8,7 @@ toc: true
 comments: true
 tags: ["rust"]
 categories: ["Embedded"]
+canonical: "https://honeytreelabs.com/posts/cross-building-rust-app-for-openwrt/"
 ---
 
 In this article, we will demonstrate how to build Rust code for Raspberry Pi single-board computers (SBCs). We'll cover how to use libraries that require both an assembler and a C toolchain for the target platform.

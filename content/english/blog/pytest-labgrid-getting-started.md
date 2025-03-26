@@ -8,6 +8,7 @@ comments: true
 image: "header.jpg"
 tags: ["pytest", "labgrid"]
 categories: ["QA", "Testing"]
+canonical: "https://honeytreelabs.com/posts/pytest-labgrid-getting-started/"
 ---
 
 We will demonstrate how to implement system and integration tests effectively using the pytest and labgrid frameworks.

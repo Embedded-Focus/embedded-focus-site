@@ -8,6 +8,7 @@ comments: true
 image: "header.jpg"
 tags: ["make", "shell", "bash"]
 categories: ["Coding"]
+canonical: "https://honeytreelabs.com/posts/sharing-variables-between-gnu-make-and-the-bash/"
 ---
 
 Both GNU Make and Bourne Again SHell allow for using variables. This post explains how to share them between these two tools.

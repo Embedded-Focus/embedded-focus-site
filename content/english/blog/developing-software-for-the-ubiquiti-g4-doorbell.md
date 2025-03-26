@@ -8,6 +8,7 @@ toc: true
 comments: true
 tags: ["c++"]
 categories: ["Coding"]
+canonical: "https://honeytreelabs.com/posts/developing-software-for-the-ubiquiti-g4-doorbell/"
 ---
 
 What is special about a radio doorbell? Press the button and wait for someone to open the door. What if things are more complex than that?

@@ -1,5 +1,5 @@
 ---
-title: "Writing Unit-Tests and Mocks for UNIX Shells"
+title: "Implementing Unit-Tests and Mocks for UNIX Shells"
 authors: ["Rainer Poisel"]
 lastmod: 2022-09-15T23:40:15+02:00
 draft: false
@@ -8,6 +8,7 @@ comments: true
 image: "header.jpg"
 tags: ["shunit2", "shellspec"]
 categories: ["QA", "Testing"]
+canonical: "https://honeytreelabs.com/posts/writing-unit-tests-and-mocks-for-unix-shells/"
 ---
 
 In this post, I will describe how to write unit tests for shell script components wich allow for mocking called commands.

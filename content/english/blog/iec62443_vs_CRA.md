@@ -6,6 +6,7 @@ title: IEC 62443 Standard GAP Analysis to the Cyber Resilience Act (CRA)
 toc-own-page: true
 tags: ["cra", "iec62443"]
 categories: ["security"]
+canonical: "https://honeytreelabs.com/posts/iec62443_vs_cra/"
 ---
 
 This whitepaper explores the alignment and gaps between IEC 62443 and the Cyber Resilience Act (CRA), offering insights to enhance compliance and product cybersecurity.

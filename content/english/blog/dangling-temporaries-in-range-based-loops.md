@@ -8,6 +8,7 @@ toc: true
 comments: true
 tags: ["c++"]
 categories: ["Coding"]
+canonical: "https://honeytreelabs.com/posts/dangling-temporaries-in-range-based-loops/"
 ---
 
 This article presents static and dynamic code anlaysis tools which help to detect programming errors leading to undefined behavior.

@@ -8,6 +8,7 @@ comments: true
 image: "header.jpg"
 tags: ["cmake", "buildsystems"]
 categories: ["QA", "Testing"]
+canonical: "https://honeytreelabs.com/posts/cmake-unity-integration/"
 ---
 
 <!-- Header source: https://www.pexels.com/photo/persons-left-hand-with-blue-manicure-4659806/ -->

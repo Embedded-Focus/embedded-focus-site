@@ -8,6 +8,7 @@ toc: true
 comments: true
 tags: ["c++", "embedded"]
 categories: ["Coding"]
+canonical: "https://honeytreelabs.com/posts/playing-with-the-ubiquiti-g4-doorbell-display/"
 ---
 
 We were able to port C/C++ programs to the G4 doorbell platform. We also tried to show something on the devices' display.

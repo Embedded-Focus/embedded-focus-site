@@ -7,6 +7,7 @@ image: "header.jpg"
 toc: true
 tags: ["linux", "embedded"]
 categories: ["Coding"]
+canonical: "https://honeytreelabs.com/posts/fast-lane-to-real-time-linux/"
 ---
 
 Have you ever had the need to quickly get access to real-time Linux to test your apps? This article explains how to achieve this goal.

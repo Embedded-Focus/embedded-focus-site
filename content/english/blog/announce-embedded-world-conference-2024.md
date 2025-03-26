@@ -8,6 +8,7 @@ comments: true
 image: "header.jpg"
 tags: ["performance", "pytest", "labgrid"]
 categories: ["Conferences", "QA", "Testing"]
+canonical: "https://honeytreelabs.com/posts/announce-embedded-world-conference-2024/"
 ---
 
 We are showcasing how parallel testing with embedded systems significantly boosts test execution efficiency, especially when strategically scaling the number of devices under test.

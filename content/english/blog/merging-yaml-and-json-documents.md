@@ -8,6 +8,7 @@ comments: true
 image: "header.jpg"
 tags: ["yaml"]
 categories: ["DevSecOps"]
+canonical: "https://honeytreelabs.com/posts/merging-yaml-and-json-documents/"
 ---
 
 This article shows how to merge documents programmatically in YAML and, or JSON formats.
