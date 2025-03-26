@@ -8,6 +8,8 @@ image: "header.jpg"
 tags: ["c++", "memory"]
 categories: ["Coding", "testing"]
 canonical: "https://honeytreelabs.com/posts/memory-checking-unit-tests/"
+sitemap:
+  disable: true
 ---
 
 There cannot be enough safety nets in software development. In this post, we will automatically run unit-tests with a memory checker.

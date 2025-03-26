@@ -9,6 +9,8 @@ image: "header.jpg"
 tags: ["pytest", "labgrid"]
 categories: ["QA", "Testing"]
 canonical: "https://honeytreelabs.com/posts/real-time-state-machine-in-cpp/"
+sitemap:
+  disable: true
 ---
 
 In this article we will implement a real-time state machine allowing for the implementation of complex scenarios with predictable timing behavior.

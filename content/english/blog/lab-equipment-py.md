@@ -9,6 +9,8 @@ comments: true
 tags: ["pytest", "electronics"]
 categories: ["testing"]
 canonical: "https://honeytreelabs.com/posts/lab-equipment-py/"
+sitemap:
+  disable: true
 ---
 
 This article is about integrating lab equipment into pytest. By doing so, we can automate setting electrical parameters and implement sequences such as operating devices in edge cases.

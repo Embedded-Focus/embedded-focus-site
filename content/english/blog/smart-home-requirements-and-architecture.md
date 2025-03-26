@@ -9,6 +9,8 @@ image: "header.jpg"
 tags: ["homeautomation", "requirements"]
 categories: ["Coding"]
 canonical: "https://honeytreelabs.com/posts/smart-home-requirements-and-architecture/"
+sitemap:
+  disable: true
 ---
 
 I have been working on my smart home solution for more than eight years. In the first part of my smart home series I want to discuss my design principles.

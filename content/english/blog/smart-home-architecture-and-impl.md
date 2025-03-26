@@ -9,6 +9,8 @@ image: "header.jpg"
 tags: ["homeautomation", "architecture"]
 categories: ["Coding"]
 canonical: "https://honeytreelabs.com/posts/smart-home-architecture-and-impl/"
+sitemap:
+  disable: true
 ---
 
 Since my last article, I have implemented a proof-of-concept version of my PLC. In this article I describe the architecture and implementation of this.
