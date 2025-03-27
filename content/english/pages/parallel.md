@@ -1,10 +1,7 @@
 ---
 title: "Parallel Testexecution"
-# meta title
-meta_title: ""
-# meta description
-description: "This is meta description"
-# save as draft
+meta_title: "Efficient Embedded Testing: Up to €100,000 Annual Value Gain"
+description: "Optimize your embedded software testing with parallel execution on real devices. Faster feedback loops, fewer context switches, higher test coverage – delivering up to €100,000 annual value gain per team."
 draft: false
 ---
 

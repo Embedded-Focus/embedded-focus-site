@@ -1,3 +1,8 @@
+---
+title: Impressum
+meta_title: "Embedded Focus: Impressum"
+description: "Impressum mit rechtlichen Informationen zum Betreiber dieser Website, einschließlich Kontakt- und Unternehmensdetails."
+---
 # Impressum
 
 ## Medieninhaber, Hersteller und Herausgeber

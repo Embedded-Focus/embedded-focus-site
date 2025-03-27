@@ -1,5 +1,6 @@
 ---
 title: "DevSecOps for Embedded Systems | Build Secure, Scalable Firmware Faster"
+description: "Consulting, technical content, and insights on embedded software development, DevSecOps, security, and quality assurance. Focused on secure, automated, and compliant embedded systems."
 
 banner:
   title: "Embedded Focus"

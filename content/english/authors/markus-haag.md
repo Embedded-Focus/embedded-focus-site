@@ -1,16 +1,12 @@
 ---
 title: Markus Haag
-email: williamjacob@email.com
+email: markus@haag.cc
 image: "/images/mah.jpg"
-description: this is meta description
+description: "Markus Haag - Technologist and entrepreneur passionate about innovation. Expert in software development and problem-solving. Builds efficient, growth-driving solutions."
 social:
-  - name: github
-    icon: fa-brands fa-github
-    link: https://github.com
-
   - name: linkedin
     icon: fa-brands fa-linkedin
-    link: https://linkedin.com
+    link: https://www.linkedin.com/in/markus-haag-4540771a/
 ---
 
 Technologist and entrepreneur passionate about innovation. Expert in software development and problem-solving. Builds efficient, growth-driving solutions.

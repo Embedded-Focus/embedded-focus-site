@@ -1,7 +1,7 @@
 ---
 title: "Contact"
-meta_title: ""
-description: "this is meta description"
+meta_title: "Embedded Focus: Contact"
+description: "On this page, you can get in touch with me."
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Datenschutzerklärung"
-meta_title: ""
-description: "Erklärung zur Informationspflicht"
+meta_title: "Embedded Focus: Datenschutzerklärung"
+description: "Datenschutzerklärung dieser Website: Informationen zur Verarbeitung personenbezogener Daten, Verantwortlichen, Rechtsgrundlagen und Ihren Rechten nach DSGVO."
 draft: false
 ---
 

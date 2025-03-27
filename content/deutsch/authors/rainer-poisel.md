@@ -2,7 +2,7 @@
 title: Rainer Poisel
 email: johndoe@email.com
 image: "/images/rpoisel-hexagon.png"
-description: this is meta description
+description: "Rainer Poisel – Experte für Embedded DevSecOps, CI/CD-Automatisierung und sichere Softwareentwicklung. Ich unterstütze Teams beim Aufbau skalierbarer, zukunftssicherer Embedded-Systeme."
 salutation: "Guten Tag, mein Name ist"
 cv: "cv_rpoisel_de.pdf"
 role: Gründer

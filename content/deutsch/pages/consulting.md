@@ -1,7 +1,7 @@
 ---
 title: "Beratung"
-meta_title: "Beratung"
-description: "this is meta description"
+meta_title: "Embedded Focus: Beratung"
+description: "Beratung für Embedded DevSecOps & Compliance: Effizientere Softwareentwicklung, sichere CI/CD-Pipelines & automatisierte Build-Prozesse. Kontakt aufnehmen!"
 draft: false
 button:
   link: contact/

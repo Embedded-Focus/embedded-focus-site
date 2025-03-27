@@ -1,7 +1,7 @@
 ---
 title: "Hello, my name is Rainer Poisel."
-meta_title: "About"
-description: "this is meta description"
+meta_title: "About Me: Rainer Poisel"
+description: "Expert in Embedded DevSecOps and modern software development processes. With extensive experience in software architecture, automation, and CI/CD, I understand the challenges embedded teams face. My mission is to establish secure, efficient, and scalable development processes, enabling companies to bring innovative embedded products to market faster and future-proof their technology."
 image: "/images/rpoisel.jpg"
 draft: false
 slogan: Together, we shape the future of your embedded development.

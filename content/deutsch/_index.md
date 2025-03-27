@@ -1,5 +1,6 @@
 ---
 title: "DevSecOps für Embedded Systems | Sichere, skalierbare Firmware schneller entwickeln"
+description: "Beratung, Expertise und Blog zu Embedded Softwareentwicklung, DevSecOps, Security und Qualitätssicherung. Fokus auf sichere, automatisierte und konforme Embedded-Systeme."
 
 banner:
   title: "Embedded Focus"

@@ -1,7 +1,7 @@
 ---
 title: "Guten Tag, meine Name ist Rainer Poisel."
-meta_title: "Über"
-description: "this is meta description"
+meta_title: "Über Mich: Rainer Poisel"
+description: "Experte für Embedded DevSecOps sowie moderne Softwareentwicklungsprozesse. Mit langjähriger Erfahrung in Softwarearchitektur, Automatisierung und CI/CD verstehe ich die Herausforderungen, denen Embedded-Teams gegenüberstehen. Meine Mission: Sichere, effiziente und skalierbare Entwicklungsprozesse etablieren, damit Unternehmen innovative Embedded-Produkte schneller und zukunftssicher auf den Markt bringen können."
 image: "/images/rpoisel.jpg"
 draft: false
 slogan: Gemeinsam machen wir Ihre Embedded-Entwicklung fit für die Zukunft.

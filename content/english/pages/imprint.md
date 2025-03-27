@@ -1,3 +1,8 @@
+---
+title: Imprint
+meta_title: "Embedded Focus: Imprint"
+description: "Legal notice with company details, contact information, and legal disclosures for this website."
+---
 # Imprint  
 
 ## Media Owner, Producer, and Publisher

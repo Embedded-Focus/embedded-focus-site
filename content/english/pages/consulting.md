@@ -1,7 +1,7 @@
 ---
 title: "Consulting"
-meta_title: "Consulting"
-description: "this is meta description"
+meta_title: "Embedded Focus: Consulting"
+description: "Consulting for Embedded DevSecOps: Optimize development processes, CI/CD automation, build systems & embedded security. Get in touch now!"
 draft: false
 button:
   link: contact/

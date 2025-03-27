@@ -1,7 +1,7 @@
 ---
 title: "Privacy Notice"
-meta_title: ""
-description: "Information Duty Statement"
+title: "Embedded Focus: Privacy Notice"
+description: "Privacy Notice: Information on the collection and processing of personal data, legal basis, data controller, and your rights under the GDPR."
 draft: false
 ---
 
