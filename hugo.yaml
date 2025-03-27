@@ -7,11 +7,9 @@ disableLanguages: []
 languages:
   de:
     languageName: DE
-    languageCode: de-AT
     weight: 1
   en:
     languageName: EN
-    languageCode: en-US
     weight: 2
 hasCJKLanguage: false
 defaultContentLanguage: de
