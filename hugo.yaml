@@ -7,8 +7,10 @@ disableLanguages: []
 languages:
   en:
     languageName: EN
+    languageCode: en-US
   de:
     languageName: DE
+    languageCode: de-AT
 hasCJKLanguage: false
 defaultContentLanguage: de
 defaultContentLanguageInSubdir: false
